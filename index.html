@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Therian/Furros</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="auth-container">
+    <h1>Therians/Furros</h1>
+
+    <form id="registerForm">
+      <input type="text" id="name" placeholder="Nombre" required>
+
+      <input type="number" id="age" placeholder="Edad (+18)" required>
+
+      <select id="role" required>
+        <option value="">¿Cómo te identificas?</option>
+        <option value="Therian">Therian</option>
+        <option value="Furry">Furry</option>
+        <option value="Ambos">Ambos</option>
+      </select>
+
+      <select id="orientation" required>
+        <option value="">Orientación sexual</option>
+        <option>Heterosexual</option>
+        <option>Gay</option>
+        <option>Bisexual</option>
+        <option>Pansexual</option>
+      </select>
+
+      <button type="submit">Registrarse</button>
+    </form>
+
+    <p id="error"></p>
+  </div>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>
