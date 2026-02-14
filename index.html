@@ -11,24 +11,30 @@
     <h1>Therians/Furros</h1>
 
     <form id="registerForm">
-      <input type="text" id="name" placeholder="Nombre" required>
+      <input type="text" id="nombre" placeholder="Nombre" required>
 
-      <input type="number" id="age" placeholder="Edad (+18)" required>
+      <input type="numero" id="años" placeholder="Edad (+18)" required>
 
-      <select id="role" required>
+      <select id="rol" required>
         <option value="">¿Cómo te identificas?</option>
         <option value="Therian">Therian</option>
         <option value="Furry">Furry</option>
         <option value="Ambos">Ambos</option>
       </select>
 
-      <select id="orientation" required>
+      <select id="orientacion" required>
         <option value="">Orientación sexual</option>
         <option>Heterosexual</option>
         <option>Gay</option>
         <option>Bisexual</option>
         <option>Pansexual</option>
+        <option>Prefiero no responder/Otro</option>
       </select>
+
+      <input type="text" id="especie" placeholder="Especie / Fursona" required>
+    <textarea id="bio" placeholder="Sobre vos" required></textarea>
+    <input type="text" id="intereses" placeholder="Intereses (separados por coma)">
+
 
       <button type="submit">Registrarse</button>
     </form>
