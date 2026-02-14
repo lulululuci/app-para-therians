@@ -1,0 +1,29 @@
+Jesús:
+Backend – Node.js
+Registro
+Login
+Validación +18
+Guardado de usuarios
+JWT / sesiones
+
+Luciana:
+Frontend
+Formularios (login / registro)
+Validaciones visuales
+Consumo de API (fetch)
+UX/UI
+
+Mati:
+Diseño + lógica de app
+Flujo de la app
+Cards, swipe
+Perfil, gustos, fotos
+
+Flujo del login
+Usuario entra
+Ve login / registro
+Completa datos
+Frontend valida
+Frontend envía datos al backend (POST /register)
+Backend responde OK / ERROR
+Si OK → entra a la app
